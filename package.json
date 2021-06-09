@@ -9,6 +9,13 @@
   "changelogUrl": "",
   "licensesUrl": "",
   "keywords": [],
+  "samples": [
+    {
+      "displayName": "HDRP Samples",
+      "description": "Scene and custom material samples",
+      "path" : "Samples/SamplesHDRP"
+    }
+  ],
   "author": {
     "name": "Joakim 'Kim' Linna",
     "email": "KimMakesGames@gmail.com",
