@@ -1,0 +1,21 @@
+{
+  "name": "kimmakesgames.devtextureprimitives",
+  "version": "1.0.0",
+  "displayName": "Dev Texture Primitives",
+  "description": "Dev texture prmitives in hierarchy context menu",
+  "unity": "2020.1",
+  "unityRelease": "7f1",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "keywords": [],
+  "author": {
+    "name": "Unity",
+    "email": "KimMakesGames@gmail.com",
+    "url": "https://github.com/kimcodekill"
+  },
+  "type": "tool",
+  "dependencies": {
+    "com.unity.render-pipelines.high-definition": "8.2.0"
+  }
+}
