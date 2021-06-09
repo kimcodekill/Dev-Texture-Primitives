@@ -11,21 +11,25 @@ That's it!
 
 # Demo
 
-A demo scene is available [here](../Editor/Resources/DevTexturePrimitives/Scenes/Demo/Demo.unity):
+A demo scene is available [here](../Samples/SamplesHDRP/Scenes/Demo/Demo.unity):
 
-```
-Editor/Resources/DevTexturePrimitives/Scenes/Demo/Demo.unity
-```
+    Samples/SamplesHDRP/Scenes/Demo/Demo.unity
 
 
 ![Demo Scene](Screenshots/demo_scene.png)
 
-# Material Properties
+# Material Properties (WIP)
 
-The color, texture and scale of the material is all exposed in the inpector. You can find and edit these properites [here](../Editor/Resources/DevTexturePrimitives/Materials/dev_material.mat):
+The color, texture and scale of the material are all exposed in the inpector so custom dev materials can be created. You can find and edit these properites [here](../Samples/SamplesHDRP/Materials/custom_dev_material.mat):
 
-```
-Editor/Resources/DevTexturePrimitives/Materials/dev_material.mat
-```
+    Samples/SamplesHDRP/Materials/custom_dev_material.mat
 
 ![Material Properties](Screenshots/material_properties.png)
+
+## NOT IMPLEMENTED [
+
+You can find the path override setting in the project settings. Set the override path to your custom dev material.
+
+![Override Path]()
+
+## ]

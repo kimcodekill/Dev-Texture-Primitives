@@ -1,5 +1,9 @@
 ﻿# Dev Texture Primitives
 
+## 1.0.1
+
+- Samples
+
 ## 1.0.0
 
 - Primitive creation script

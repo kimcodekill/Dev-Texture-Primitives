@@ -1,8 +1,8 @@
 {
   "name": "kimmakesgames.devtextureprimitives",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Dev Texture Primitives",
-  "description": "Dev texture prmitives in hierarchy context menu",
+  "description": "Dev texture primitives in hierarchy context menu",
   "unity": "2020.1",
   "unityRelease": "7f1",
   "documentationUrl": "",
@@ -10,7 +10,7 @@
   "licensesUrl": "",
   "keywords": [],
   "author": {
-    "name": "Unity",
+    "name": "Joakim 'Kim' Linna",
     "email": "KimMakesGames@gmail.com",
     "url": "https://github.com/kimcodekill"
   },
