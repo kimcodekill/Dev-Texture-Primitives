@@ -1,5 +1,6 @@
 ﻿// Joakim Linna KimMakesGames@gmail.com 2021-06-09
 
+using System;
 using UnityEditor;
 using UnityEngine;
 
@@ -8,7 +9,6 @@ namespace KimMakesGames.DevTexturePrimitives.Editor
     public class CustomPrimitives : MonoBehaviour
     {
         private const string _menuPath = "GameObject/Dev Texture Primitives/";
-        private const string _materialPath = "DevTexturePrimitives/Materials/dev_material";
 
         [MenuItem(_menuPath + "Sphere", false, 10)]
         static void CreateCustomSphere(MenuCommand menuCommand) => Create(menuCommand, PrimitiveType.Sphere);
@@ -31,7 +31,7 @@ namespace KimMakesGames.DevTexturePrimitives.Editor
         private static void Create(MenuCommand menuCommand, PrimitiveType primitiveType)
         {
             GameObject go = GameObject.CreatePrimitive(primitiveType);
-            go.GetComponent<MeshRenderer>().material = Resources.Load(_materialPath) as Material;
+            go.GetComponent<MeshRenderer>().material = AssetDatabase.LoadAssetAtPath<Material>(DevTexturePrimitivesSettings.MaterialPath);
             GameObjectUtility.SetParentAndAlign(go, menuCommand.context as GameObject);
             Undo.RegisterCreatedObjectUndo(go, $"Create {go.name}");
             Selection.activeObject = go;
