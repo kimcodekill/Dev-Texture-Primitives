@@ -1,5 +1,9 @@
 ﻿# Dev Texture Primitives
 
+## 1.1.0
+
+- Customization!
+
 ## 1.0.1
 
 - Samples

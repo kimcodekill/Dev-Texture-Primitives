@@ -11,9 +11,9 @@
   "keywords": [],
   "samples": [
     {
-      "displayName": "HDRP Samples",
-      "description": "Scene and custom material samples",
-      "path" : "Samples/SamplesHDRP"
+      "displayName": "Demo",
+      "description": "Dev Texture Primitives Demo Scene and alternative dev_texture",
+      "path" : "Samples/Demo"
     }
   ],
   "author": {
